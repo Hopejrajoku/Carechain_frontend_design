@@ -1,25 +1,25 @@
 /************ Custom Font ************/
 @font-face {
-	font-family: Chakra petch;
-	src: url('./assets/Chakra/ChakraPetch-Bold.ttf');
+	font-family: PPNeueMachina;
+	src: url('./assets/NeueMachina/NeueM/PPNeueMachina-InktrapUltrabold.otf');
 	font-weight: 700;
 }
 @font-face {
-	font-family: Chakra petch;
-	src: url('./assets/Chakra/ChakraPetch-Medium.ttf');
+	font-family: PPNeueMachina;
+	src: url('./assets/NeueMachina/NeueM/PPNeueMachina-PlainUltrabold.otf');
 	font-weight: 500;
 }
 @font-face {
-	font-family: Chakra petch;
-	src: url('./assets/Chakra/ChakraPetch-Regular.ttf');
+	font-family: PPNeueMachina;
+	src: url('./assets/NeueMachina/NeueM/PPNeueMachina-PlainRegular.otf');
 	font-weight: 400;
 }
 
 
 
 *{
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 
@@ -32,14 +32,14 @@ body{
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #121212 !important;
-  color: #fff !important;
-  font-family: Centra, sans-serif;
+  background-color: #f1f1f1 !important;
+  color: #1b1b1b !important;
+  font-family: PPNeueMachina;
 }
 
 h1, h2, h3, h4, h5, h6{
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   line-height: normal;
   text-decoration: none;
 }
@@ -59,7 +59,7 @@ input:focus, textarea:focus, select:focus {
 @media (min-width:1700px) {
 	main .container {
 		max-width: 100%;
-		padding: 0 150px;
+		padding: 0px 150px;
 	}
 }
 
@@ -72,7 +72,7 @@ p.danger {
 }
 /************ Navbar Css ************/
 nav.navbar {
-  padding: 18px 0;
+  padding: 18px 0px;
   position: fixed;
   width: 100%;
   top: 0;
@@ -80,7 +80,7 @@ nav.navbar {
   transition:  0.32s ease-in-out;
 }
 nav.navbar.scrolled {
-  padding: 10px 0;
+  padding: 10px 0px;
   background-color: #121212;
 }
 nav.navbar a.navbar-brand {
@@ -93,10 +93,10 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   margin-right: 20px;
   padding-left: 20px;
   font-size: 20px;
-  font-family: Chakra petch;
+  font-family: PPNeueMachina;
 }
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover{
-  color: #2c2c2c !important;
+  color: #5852F2 !important;
 }
 
 
@@ -109,13 +109,13 @@ nav.navbar .navbar-nav a.nav-link.navbar-link:hover{
   color: #fff !important;
   letter-spacing: 0.8px;
   font-size: 20px;
-  font-family: Chakra petch;
+  font-family: PPNeueMachina;
   transition: 0.3s ease-in-out;
 }
 
 .vvd:hover{
   background-color: #f5f2f2;
-  color: #2c2c2c !important;
+  color: #5852F2 !important;
 }
 
 #basic-nav-dropdown{
@@ -123,10 +123,10 @@ nav.navbar .navbar-nav a.nav-link.navbar-link:hover{
   color: #fff !important;
   letter-spacing: 0.8px;
   font-size: 20px;
-  font-family: Chakra petch;
+  font-family: PPNeueMachina;
 }
 #basic-nav-dropdown:hover{
-  color: #2c2c2c !important;
+  color: #5852F2 !important;
 }
 
 
@@ -183,24 +183,27 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /******Banner********/
 
 .banner{
-  margin-top: 0;
-  padding: 260px 0 100px 0;
+  left: 0;
+  right: 0;
+  margin-top: 0px;
+  padding: 260px 0px 80px 0px;
   background-image: url(assets/img/hero.svg);
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
+  width: 100%;
 }
 
 
 .blooock{
-  font-family: Chakra petch;
-  font-weight: 800;
+  font-family: PPNeueMachina;
+  font-weight: 700;
   color: #fff;
-  font-size: 60px;
+  font-size: 50px;
 }
 
 .blooock-p{
-  font-family: Chakra petch;
+  font-family: PPNeueMachina;
   font-weight: 500;
   color: #fff;
   font-size: 20px;
@@ -210,20 +213,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 
 .banner .brain {
-  animation: updown 5s linear infinite;
+  animation: updown 3s linear infinite;
 }
 @keyframes updown {
     0% {
-        transform: translateY(-10px);
+        transform: translateX(-15px);
     }
     50% {
-        transform: translateY(10px);
+        transform: translateX(15px);
     }
     100% {
-        transform: translateY(-10px);
+        transform: translateX(-15px);
     }
 }
-
 
 .left{
   position: relative;
@@ -253,7 +255,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .right-div{
   position: relative;
   width: 150px;
-  height: 130;
+  height: 130px;
   margin-top: -60px;
   margin-left: 50px;
   
@@ -266,7 +268,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .left h1{
-  font-family: Chakra petch;
+  font-family: PPNeueMachina;
   font-size: 26px;
   font-weight: 800;
   color: #5852F2 !important;
@@ -293,19 +295,665 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 4px;
   margin-top: -60px;
   margin-left: 80px;
-  background: #ece7fa;
+  background: #f3f1f8;
   border-radius: 4px;
 }
 
 /******About********/
-
-.aboout-page{
-  margin-top: 0;
-  padding: 360px 0 100px 0;
+.about-page{
+  left: 0;
+  right: 0;
+  margin-top: 0px;
+  padding: 260px 0px 80px 0px;
   background-image: url(assets/img/about.svg);
-  background-position: top center;
+  background-position: left center;
   background-size: cover;
   background-repeat: no-repeat;
+  width: 100%;
+}
+
+.left-card img{
+  margin-left: -220px;
+  height: 70px;
+}
+
+.right-card{
+  margin-top: 100px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+.right-card img{
+  height: 180px;
+  border-radius: 10px;
+}
+
+.right-card-text{
+  border: 1px solid #d4d3d3;
+  background: #fff;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+  padding: 10px 10px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.right-card-text p{
+  font-family: PPNeueMachina;
+  color: #5852F2;
+}
+
+.left-card-header span{
+  font-family: PPNeueMachina;
+  font-size: 40px;
+  font-weight: 700;
+  color: #5852F2;
+}
+
+.left-card-header p{
+  font-family: PPNeueMachina;
+  font-weight: 400;
+  font-size: 20px;
+  color: #2c2c2c;
+  margin-bottom: 50px;
+}
+.card-btn{
+  border: 1px solid #5852F2;
+  color: #5852F2;
+  padding: 8px 16px;
+  border-radius: 14px;
+  align-items: center;
+  font-size: 30px;
+  margin-right: -100px;
+}
+
+/******Stats********/
+.stats{
+  left: 0;
+  right: 0;
+  margin-top: 0px;
+  padding: 260px 0px 100px 0px;
+  background-image: url(assets/img/Statsbb.svg);
+  background-position: left center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.stats-right-text{
+  font-family: PPNeueMachina;
+  font-size: 40px;
+  color: #5852F2;
+  font-weight: lighter;
+}
+.stats-right-text img {
+  height: 38px;
+}
+.stats-left-text{
+  color: #d4d3d3;
+  font-family: PPNeueMachina;
+  font-weight: 400;
+  font-size: 20px;
+}
+.stats-left{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.stats-left p{
+  color: #5852F2;
+  font-family: PPNeueMachina;
+  font-weight: 410;
+}
+
+.group-contain{
+  margin-top: 90px;
+  gap: 20px 20px;
+  
+}
+
+.group-contain img{
+  height: 150px;
+}
+.group-contain img:hover{
+  cursor: pointer;
+}
+
+.group-contain .five {
+  animation: updown 3s linear infinite;
+}
+@keyframes updown {
+    0% {
+        transform: translateX(-15px);
+    }
+    50% {
+        transform: translateX(15px);
+    }
+    100% {
+        transform: translateX(-15px);
+    }
+}
+
+
+/******Team********/
+
+.team{
+  left: 0;
+  right: 0;
+  margin-top: 0px;
+  padding: 260px 0px 80px 0px;
+  background-image: url(assets/img/aboutt.svg);
+  background-position: left center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+ .team video{
+  height: 550px;
+  width: 100%;
+  padding: 60px 0 20px 0;
+ }
+
+
+ /******Features********/
+ .roadmap{
+  left: 0;
+  right: 0;
+  margin-top: 0;
+  padding: 260px 0 80px 0;
+  background-image: url(assets/img/features.svg);
+  background-position: left center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+ }
+
+
+ .roadmap-text{
+  margin-bottom: 20px;
+ }
+ .roadmap-text h1{
+  font-family: PPNeueMachina;
+  font-weight: 700;
+  color: #fff;
+ }
+
+ .roadmap-text p{
+  font-family: PPNeueMachina;
+  font-weight: 400;
+  color: #fff;
+ }
+
+
+.product-card-img{
+  background: #fff;
+  border: 1px solid grey;
+  width: 300px;
+  height: 130px;
+  align-items: center;
+}
+
+.product-card-img2{
+  background-image: linear-gradient(to right #5852F2 #A0A1F1 #C7CCF1 #98BCEF #0C8BE8);
+  border: 1px solid #fff;
+  width: 300px;
+  height: 130px;
+  align-items: center;
+}
+
+.products{
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-card{
+  width: 300px;
+  margin: 20px 10px auto;
+}
+
+.product-card-tex{
+  background: #fff;
+  padding: 10px 10px 10px 10px;
+  width: 300px;
+  height: 150px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.product-card-tex p{
+  font-family: PPNeueMachina;
+  color: #2c2c2c;
+}
+.product-card-btn{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+
+.btn-card-left{
+  padding: 20px 10px 20px 10px;
+  border: none;
+  background: #e9e8e8;
+  color: #2c2c2c;
+  width: 130px;
+  border-radius: 0px 0px 0px 10px;
+  font-family: PPNeueMachina;
+}
+.btn-card-right{
+  padding: 20px 10px 20px 10px;
+  background-color: #5852F2;
+  color: #ffffff;
+  border: 0.5px solid #fff;
+  width: 170px;
+  border-radius: 0px 0px 10px 0px;
+  font-family: PPNeueMachina;
+  font-weight: 600;
+}
+
+.btn-card-left2{
+  padding: 20px 10px 20px 10px;
+  border: none;
+  background: #e9e8e8;
+  color: #2c2c2c;
+  width: 130px;
+  border-radius: 0px 0px 0px 10px;
+  font-family: PPNeueMachina;
+}
+.btn-card-right2{
+  padding: 20px 10px 20px 10px;
+  background-color: #e9e8e8;
+  color: #5852F2;
+  border: 0.5px solid #fff;
+  width: 170px;
+  border-radius: 0px 0px 10px 0px;
+  font-family: PPNeueMachina;
+  font-weight: 600;
+}
+
+
+/******Features********/
+.reward{
+  left: 0;
+  right: 0;
+  margin-top: 0px;
+  padding: 260px 0px 80px 0px;
+  background-image: url(assets/img/creditbg.svg);
+  background-position: left center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+ }
+
+/*******Rewards********/
+
+.txt-left h2{
+  font-family: PPNeueMachina;
+  font-size: 40px;
+  color: #e9e8e8;
+}
+.txt-right h2{
+  font-family: PPNeueMachina;
+  font-size: 40px;
+  color: #e9e8e8;
+}
+.txt p{
+  font-family: PPNeueMachina;
+  font-weight: 400;
+  color: #e9e8e8;
+}
+
+/*****partners******/
+.partners{
+  left: 0;
+  right: 0;
+  margin-top: 0px;
+  padding: 260px 0px 80px 0px;
+  background-image: url(assets/img/partners.svg);
+  background-position: left center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.partner-txt-left{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+.partner-txt-left h2{
+  font-family: PPNeueMachina;
+  font-weight: 700;
+  color: #1F1D55;
+}
+.partner-txt-left p{
+  color: #1F1D55;
+  font-family: PPNeueMachina;
+  font-weight: 400;
+}
+
+
+.partner-btn-one{
+  margin-top: 50px;
+  color: #5852F2;
+  background: transparent;
+  border: 1px solid #5852F2;
+  border-radius: 6px;
+  padding: 8px 18px;
+  font-family: PPNeueMachina;
+  letter-spacing: 0.2px;
+  font-size: 16px;
+  font-size: small;
+  transition-duration: 0.3s;
+  align-items: start;
+}
+.partner-btn-one:hover{
+  cursor: pointer;
+  color: #5852F2;
+  background: #fff;
+}
+
+.partner-btn-two{
+  color: #5852F2;
+  background: #fff;
+  border-radius: 6px;
+  font-family: PPNeueMachina;
+  letter-spacing: 0.2px;
+  font-size: 16px;
+  font-size: small;
+  border: none;
+  padding: 8px 18px;
+}
+
+.partner-btn-two:hover{
+  cursor: pointer;
+  color: #5852F2;
+  background: transparent;
+  border: 1px solid #5852F2;
+}
+.partner{
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.partner-image{
+  background: transparent;
+  border: 1px solid #fff;
+  padding: 60px;
+  align-items: center;
+}
+.partner-image img{
+  width: 60px;
+  height: 60px;
+}
+
+.parts{
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/****transform****/
+
+.transform{
+  left: 0;
+  right: 0;
+  margin-top: 0px;
+  padding: 260px 0px 80px 0px;
+  background-image: url(assets/img/transform.svg);
+  background-position: left center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.transforming img{
+  width: 100%;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.transforming button{
+  padding: 8px 28px;
+  font-family: PPNeueMachina;
+  background: transparent;
+  border: 1px solid #5852F2;
+  border-radius: 6px;
+  text-align: center;
+  color: #5852F2;
+  transition-duration: 0.3s;
+}
+.transforming button:hover{
+  cursor: pointer;
+  color: #e9e8e8;
+  background: #5852F2;
+}
+.transforming h2{
+  color: #5852F2;
+  font-family: PPNeueMachina;
+  font-weight: 600;
+}
+
+.transform-left-text{
+  font-family: PPNeueMachina;
+  color: #1F1D55;
+  margin-bottom: 20px;
+}
+.transform h5{
+  font-family: PPNeueMachina;
+  color: #1F1D55;
+  text-align: start;
+}
+.transform p{
+  font-family: PPNeueMachina;
+  color: #1F1D55;
+  text-align: start;
+}
+.tranform-btn button{
+  padding: 8px 18px;
+  font-family: PPNeueMachina;
+  background: #5852F2;
+  border: none;
+  border-radius: 6px;
+  text-align: center;
+  color: #fff;
+  transition-duration: 0.3s;
+}
+.tranform-btn button:hover{
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #5852F2;
+  color: #5852F2;
+}
+
+/******Newsletter*******/
+
+.newsletter{
+  left: 0;
+  right: 0;
+  margin-top: 0px;
+  padding: 260px 0px 80px 0px;
+  background-image: url(assets/img/newsletter.svg);
+  background-position: left center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.news img{
+  width: 100%;
+  cursor: pointer;
+}
+
+.news-left{
+  margin-top: 60px;
+}
+.news-left h2, p{
+  color: #fff;
+  font-family: PPNeueMachina;
+}
+
+.news-email input{
+  padding: 8px 18px;
+  width: 75%;
+  border: none;
+  border-radius: 6px 0px 0px 6px;
+  font-family: PPNeueMachina;
+}
+.news-email button{
+  padding: 8px 18px;
+  font-family: PPNeueMachina;
+  border: none;
+  color: #f1f1f1;
+  background: #5852F2;
+  border-radius: 0px 6px 6px 0px;
+  transition-duration: 0.3s;
+}
+.news-email button:hover{
+  cursor: pointer;
+  background: #fff;
+  border: 1px dashed #5852F2;
+  color: #5852F2;
+  padding: 8px 18px;
+}
+
+/******community*******/
+
+.community{
+  top: 0;
+  left: 0;
+  margin-top: 0px;
+  padding: 260px 0px 50px 0px;
+}
+
+
+.commun{
+  display: flex;
+  border: none;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 8px;
+}
+
+.commun-image{
+  display: flex;
+  margin-right: auto;
+}
+.commun-image img{
+  width: 80px;
+  height: 80px;
+}
+
+.commun-txt{
+  margin-right: auto;
+}
+
+.commun-txt h5{
+  font-family: PPNeueMachina;
+  color: #1F1D55;
+  font-weight: 600;
+  font-size: 38px;
+}
+
+.commun-btn-left button{
+  border: 1px solid #5852F2;
+  color: #5852F2;
+  padding: 10px 18px;
+  border-radius: 14px;
+  align-items: center;
+  font-size: 30px;
+  transition-duration: 0.3s;
+}
+
+.commun-btn-left button:hover{
+  color: #d4d3d3;
+  background: #5852F2;
+  cursor: pointer;
+}
+
+
+/******Footer*******/
+
+.footer{
+  left: 0;
+  right: 0;
+  margin-top: 0px;
+  padding: 260px 0px 40px 0px;
+  background-image: url(assets/img/Footers.svg);
+  background-position: left center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+
+.footer-btn button{
+  padding: 10px 20px;
+  background: #5852F2;
+  border: none;
+  font-family: PPNeueMachina;
+  border-radius: 6px;
+  color: #e9e8e8;
+  transition-duration: 0.3s;
+}
+.footer-btn button:hover{
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #fff;
+}
+.footer-tx h2{
+  color: #e9e8e8;
+  font-family: PPNeueMachina;
+}
+.footer-tx h6{
+  color: #e9e8e8;
+  font-family: PPNeueMachina;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+
+
+.footer-bx{
+  display: flex;
+  border: none;
+  background: #fff;
+  border-radius: 6px;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 8px 8px;
+}
+.footer-bx h5{
+  color: grey;
+  font-family: PPNeueMachina;
+  margin: auto;
+  font-size: 12px;
+  padding: 3px 3px;
+}
+
+.footer-image{
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer-image img{
+  width: 25px;
+  height: 25px;
+}
+
+.footer-image-left img{
+  width: 28px;
+  height: 28px;
+}
+.footer-image-left{
+  margin-left: auto;
 }
 
 

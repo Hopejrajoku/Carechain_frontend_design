@@ -18,20 +18,20 @@ const Banner = () => {
                     <p className='blooock-p'>Revolutionising Healthcare with <strong>Blockchain Technology</strong> Integrated with <strong>Ai</strong></p>
             </Col>
 
-            <Col  className='left'>
+            <Col xs={12} md={6} className='left'>
               <div className='left-div'>
               <div className='right-div'>
                 <div className='right-div-div'>
                 <h1 className='case'>20K</h1>
-                <h2 style={{fontFamily: 'Chakra petch', fontWeight: 500, fontSize: 22, color: '#000', marginBottom:'5px'}}>Lives</h2>
-                <p style={{fontFamily: 'Chakra petch', fontWeight: 500, fontSize: 18, color: '#000', marginBottom:'5px'}}>Improved</p>
+                <h2 style={{fontFamily: 'PPNeueMachina', fontWeight: 500, fontSize: 22, color: '#1f1e1e', marginBottom:'2px'}}>Lives</h2>
+                <p style={{fontFamily: 'PPNeueMachina', fontWeight: 500, fontSize: 18, color: '#1f1e1e', marginBottom:'2px'}}>Improved</p>
                 <img src={Pics} alt='' style={{marginBottom:'10px'}} />
                 </div>
                 <div className='brain'><img src={Brain} alt='' className='brain' /></div>
               <div className='growth'>
                 <div className='growth-p'>
-                <p style={{fontFamily: 'Chakra petch', fontWeight: 500, fontSize: 12, color: '#000', marginBottom: 0}}>Growth</p>
-                <p style={{fontFamily: 'Chakra petch', fontWeight: 500, fontSize: 22, color: '#000', marginBottom: 0}}>70%</p>
+                <p style={{fontFamily: 'PPNeueMachina', fontWeight: 500, fontSize: 12, color: '#1f1e1e', marginBottom: 0}}>Growth</p>
+                <p style={{fontFamily: 'PPNeueMachina', fontWeight: 500, fontSize: 22, color: '#1f1e1e', marginBottom: 0}}>70%</p>
                 <img src={Grow} alt=''height={30} />
                 </div>
                 
